@@ -1,7 +1,7 @@
 <?php $render('header'); ?>
     <div class="container">
         <div>
-        <h1>Adicionar Usuário</h1>
+        <h1>Adicionar {{name == '' ? 'Usuário' : name }}</h1>
         </div>
         <hr>
         <div class="row">

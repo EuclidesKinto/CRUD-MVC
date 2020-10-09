@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="512f043e-e700-4061-b1eb-9bcda2c86110" name="Default Changelist" comment="add table in home and add header, footer">
-      <change afterPath="$PROJECT_DIR$/public/assets/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/pages/adicionar.php" afterDir="false" />
+    <list default="true" id="512f043e-e700-4061-b1eb-9bcda2c86110" name="Default Changelist" comment="add vue.js, v-model(two way data binding) in table create user.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/adicionar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/adicionar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602245450070</updated>
-      <workItem from="1602245451517" duration="8597000" />
+      <workItem from="1602245451517" duration="9217000" />
     </task>
     <task id="LOCAL-00001" summary="add mvc">
       <created>1602245909790</created>
@@ -82,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602251132384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add vue.js, v-model(two way data binding) in table create user.">
+      <created>1602254437532</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602254437532</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +93,8 @@
     <MESSAGE value="add mvc" />
     <MESSAGE value="create bd, composer install" />
     <MESSAGE value="add table in home and add header, footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add table in home and add header, footer" />
+    <MESSAGE value="add vue.js, v-model(two way data binding) in table create user." />
+    <option name="LAST_COMMIT_MESSAGE" value="add vue.js, v-model(two way data binding) in table create user." />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602245552887">
@@ -123,13 +125,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602245639047" />
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1602247213586">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1602254442435">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602247213586" />
-    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602251049021">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602254442435" />
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602254898216">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602251049021" />
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602254898216" />
   </component>
 </project>
