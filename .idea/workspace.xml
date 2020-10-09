@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="512f043e-e700-4061-b1eb-9bcda2c86110" name="Default Changelist" comment="create bd, composer install">
-      <change afterPath="$PROJECT_DIR$/src/models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/partials/footer.php" afterDir="false" />
+    <list default="true" id="512f043e-e700-4061-b1eb-9bcda2c86110" name="Default Changelist" comment="add table in home and add header, footer">
+      <change afterPath="$PROJECT_DIR$/public/assets/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/pages/adicionar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/partials/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/partials/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602245450070</updated>
-      <workItem from="1602245451517" duration="5139000" />
+      <workItem from="1602245451517" duration="8597000" />
     </task>
     <task id="LOCAL-00001" summary="add mvc">
       <created>1602245909790</created>
@@ -73,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602247043921</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add table in home and add header, footer">
+      <created>1602251132384</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602251132384</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +91,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add mvc" />
     <MESSAGE value="create bd, composer install" />
-    <option name="LAST_COMMIT_MESSAGE" value="create bd, composer install" />
+    <MESSAGE value="add table in home and add header, footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add table in home and add header, footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602245552887">
@@ -101,10 +111,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="321" y="124" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1602247171692" />
-    <state x="490" y="85" key="NewPhpClassDialog" timestamp="1602250282842">
+    <state x="490" y="85" key="NewPhpClassDialog" timestamp="1602251472318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="490" y="85" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602250282842" />
+    <state x="490" y="85" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602251472318" />
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1602251657519">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602251657519" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1602245639047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -113,9 +127,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602247213586" />
-    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602247199344">
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602251049021">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602247199344" />
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602251049021" />
   </component>
 </project>
