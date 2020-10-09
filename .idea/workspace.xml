@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="512f043e-e700-4061-b1eb-9bcda2c86110" name="Default Changelist" comment="" />
+    <list default="true" id="512f043e-e700-4061-b1eb-9bcda2c86110" name="Default Changelist" comment="create bd, composer install">
+      <change afterPath="$PROJECT_DIR$/src/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/partials/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/partials/header.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +17,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,9 +35,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -34,12 +57,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602245450070</updated>
-      <workItem from="1602245451517" duration="187000" />
+      <workItem from="1602245451517" duration="5139000" />
     </task>
+    <task id="LOCAL-00001" summary="add mvc">
+      <created>1602245909790</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602245909790</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create bd, composer install">
+      <created>1602247043921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602247043921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mvc" />
+    <MESSAGE value="create bd, composer install" />
+    <option name="LAST_COMMIT_MESSAGE" value="create bd, composer install" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602245552887">
@@ -54,13 +97,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="561" y="259" width="243" height="281" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1602245596046" />
+    <state x="321" y="124" key="MultipleFileMergeDialog" timestamp="1602247171692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="321" y="124" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1602247171692" />
+    <state x="490" y="85" key="NewPhpClassDialog" timestamp="1602250282842">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="490" y="85" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602250282842" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1602245639047">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602245639047" />
-    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602245516102">
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2" timestamp="1602247213586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602245516102" />
+    <state x="275" y="95" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602247213586" />
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602247199344">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="276" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1602247199344" />
   </component>
 </project>
